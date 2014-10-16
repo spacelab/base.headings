@@ -1,0 +1,47 @@
+$heading-size-alpha:           36px !default;
+$heading-line-height-alpha:    48px !default;
+
+$heading-size-beta:            30px !default;
+$heading-line-height-beta:     42px !default;
+
+$heading-size-gamma:           26px !default;
+$heading-line-height-gamma:    36px !default;
+
+$heading-size-delta:           20px !default;
+$heading-line-height-delta:    28px !default;
+
+$heading-size-epsilon:         18px !default;
+$heading-line-height-epsilon:  24px !default;
+
+$heading-size-zeta:            16px !default;
+$heading-line-height-zeta:     24px !default;
+
+h1,
+.alpha {
+  @include font-size($heading-size-alpha, $heading-line-height-alpha);
+}
+
+h2,
+.beta {
+  @include font-size($heading-size-beta, $heading-line-height-beta);
+}
+
+h3,
+.gamma {
+  @include font-size($heading-size-gamma, $heading-line-height-gamma);
+}
+
+h4,
+.delta {
+  @include font-size($heading-size-delta, $heading-line-height-delta);
+}
+
+h5,
+.epsilon {
+  @include font-size($heading-size-epsilon, $heading-line-height-epsilon);
+}
+
+h6,
+.zeta {
+  @include font-size($heading-size-zeta, $heading-line-height-zeta);
+}
