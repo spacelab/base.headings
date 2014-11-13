@@ -17,31 +17,37 @@ $heading-size-zeta:            16px !default;
 $heading-line-height-zeta:     24px !default;
 
 h1,
+%alpha
 .alpha {
   @include font-size($heading-size-alpha, $heading-line-height-alpha);
 }
 
 h2,
+%beta,
 .beta {
   @include font-size($heading-size-beta, $heading-line-height-beta);
 }
 
 h3,
+%gamma,
 .gamma {
   @include font-size($heading-size-gamma, $heading-line-height-gamma);
 }
 
 h4,
+%delta,
 .delta {
   @include font-size($heading-size-delta, $heading-line-height-delta);
 }
 
 h5,
+%epsilon,
 .epsilon {
   @include font-size($heading-size-epsilon, $heading-line-height-epsilon);
 }
 
 h6,
+%zeta,
 .zeta {
   @include font-size($heading-size-zeta, $heading-line-height-zeta);
 }
