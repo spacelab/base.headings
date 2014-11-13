@@ -12,7 +12,7 @@
     "css"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/spacelab/base.headings/",
+  "homepage": "https://github.com/spacelab/base.headings",
   "private": true,
   "ignore": [
     "**/.*",
