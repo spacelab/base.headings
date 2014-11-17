@@ -51,3 +51,12 @@ h6,
 .zeta {
   @include font-size($heading-size-zeta, $heading-line-height-zeta);
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@extend %trailing;
+}
