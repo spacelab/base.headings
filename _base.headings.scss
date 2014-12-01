@@ -17,7 +17,7 @@ $heading-size-zeta:            16px !default;
 $heading-line-height-zeta:     24px !default;
 
 h1,
-%alpha
+%alpha,
 .alpha {
   @include font-size($heading-size-alpha, $heading-line-height-alpha);
 }
